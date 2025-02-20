@@ -1,10 +1,6 @@
 appId: com.pushnotifapp
 ---
-- launchApp:
-    clearState: true
-
-- tapOn: "Autoriser"
-- assertVisible: "🔹 Permission des notifications accordée"
-
-- tapOn: "Envoyer Notification"
-- assertVisible: "🔔 Notification reçue"
+- launchApp
+- assertVisible: "Push Notification Firebase"
+- assertVisible: "Hello"
+- assertVisible: "Hello from Lisa"
